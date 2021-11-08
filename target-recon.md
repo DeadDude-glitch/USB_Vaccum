@@ -1,10 +1,13 @@
 ## Vuln Targets:
 Dr. H@9th!m H@m3d - Data Communication Teacher - FCAI - CU
 
-#### Attack Time
+### Attack Time
+
 **Lecture Times:**
 * sunday 2:30pm --> 4:00pm 
 * monday 9:30pm --> 11:15pm
+
+**location:** room 32
 
 valid till February 2022 
  
