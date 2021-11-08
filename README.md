@@ -1,5 +1,5 @@
 # USB_hijacker
-this batch files was made to steal the exams from my professor when he plugs in his usb into the university computer
+this batch files was made to steal the exams from my professor when he plugs in his usb into the university's computer
 
 ## it consists of the following scripts
 
@@ -10,7 +10,7 @@ copies all usb content in a specified directory
 authorization required: normal user
 
 ### scheduleTask.bat
-this file creates 2 scheduled tasks when the professor gives his lecture, and creates the directory where all the files will be copied to.
+this file creates 2 scheduled tasks that start the dataHarvest script when the professor gives his lecture, and creates the directory where all the files will be copied to.
     
 authorization required: admin
 
