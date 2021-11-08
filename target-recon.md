@@ -11,7 +11,7 @@ Dr. H@9th!m H@m3d - Data Communication Teacher - FCAI - CU
 
 valid till February 2022 
  
-## Technical Recon
+## Recon
 
 ### VULNERABILITY
 the smart screen computer grants everyone admin privileges
