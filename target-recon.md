@@ -2,8 +2,9 @@
 Dr. H@9th!m H@m3d - Data Communication Teacher - FCAI - CU
 
 #### Attack Time
-LECTURE1:sunday 2:30pm --> 4:00pm 
-LECTURE2: monday 9:30pm --> 11:15pm
+**Lecture Times:**
+* sunday 2:30pm --> 4:00pm 
+* monday 9:30pm --> 11:15pm
 
 valid till February 2022 
  
