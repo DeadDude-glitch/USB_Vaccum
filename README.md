@@ -1,5 +1,5 @@
 # USB_hijacker
-this batch files was made to copy the slides/exams from my university doctor when he plugs in his usb into the university's computer, however I never used it. 
+this batch files was made to copy the slides/exams from target when he plugs in his usb into your PC.
 
 ## it consists of the following scripts
 
@@ -10,11 +10,7 @@ copies all usb content in a specified directory
 authorization required: normal user
 
 ### scheduleTask.bat
-this file creates 2 scheduled tasks that start the dataHarvest script when the professor gives his lecture, and creates the directory where all the files will be copied to.
-    
+this file creates scheduled tasks that start the dataHarvest script when the target is expceted to plugin his USB.
 authorization required: admin
-
-### cleaner.bat (not done yet)
-this file should copy all the stolen files to the attacker's usb, delete or overwrite the the code of the previous batch scripts,and delete the scheduled tasks made.
 
 authurization required: admin	
