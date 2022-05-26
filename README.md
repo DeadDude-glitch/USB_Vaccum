@@ -1,5 +1,5 @@
 # USB_hijacker
-this batch files was made to steal the exams from my professor when he plugs in his usb into the university's computer
+this batch files was made to copy the slides/exams from my university doctor when he plugs in his usb into the university's computer, however I never used it. 
 
 ## it consists of the following scripts
 
